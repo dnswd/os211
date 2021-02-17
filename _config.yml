@@ -18,15 +18,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
+title: Dennis's OS211
 email: dennis.al@ui.ac.id
 description: >- # this means to ignore newlines until "baseurl:"
-  This site is for my 
+  This site is a journal to record the progress of my OS class at Fasilkom UI.
 baseurl: "/os211" # the subpath of your site, e.g. /blog
 url: "https://dnswd.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: straussmn
 github_username:  dnswd
-  This site is a journal to record the progress of my OS class at Fasilkom UI.
 # Build settings
 theme: just-the-docs
 plugins:
