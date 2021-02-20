@@ -52,7 +52,7 @@ plugins:
 #   - vendor/ruby/
 # =============================================
 # Theme configuration
-logo: favicon.ico
+# logo: favicon.ico
 color_scheme: dormammu
 
 # Enable or disable the site search
