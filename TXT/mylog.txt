@@ -4,3 +4,6 @@
 #
 # Reference: https://osp4diss.vlsm.org/ETC/logCodes.txt
 ZCZC W00 10 L03 GitHub Setup
+ZCZC W00 20 L05 Discover Github Pages and Jekyll
+ZCZC W00 10 L04 Github Pages Setup
+ZCZC W00 60 L04 Custom theme implementation
