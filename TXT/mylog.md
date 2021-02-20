@@ -4,7 +4,15 @@ title: My Log
 permalink: /TXT/mylog
 ---
 
-## mylog.txt
+## My Log
+---
+
+<script>
+function redirectRAW() { window.location ="mylog.txt" }
+</script>
+
+<button class="btn js-toggle-dark-mode" onclick="redirectRAW()">View raw</button>
+
 <div id="log">Loading <code>/mylog.txt</code></div>
 
 <script id="loading">

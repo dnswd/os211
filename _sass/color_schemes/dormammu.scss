@@ -1,0 +1,21 @@
+$body-background-color: #181a1b;
+$sidebar-color: #1c1f20;
+$border-color: #353a3c;
+
+$body-text-color: #e8e6e3;
+$body-heading-color: $grey-lt-000;
+$nav-child-link-color: $grey-dk-000;
+$search-result-preview-color: #e8e6e3;
+
+$link-color: #7658ee;
+$btn-primary-color: #7658ee;
+$base-button-color: #1d1f20;
+
+$code-background-color: #1c1f20;
+$search-background-color: #181a1b;
+$table-background-color: #181a1b;
+$feedback-color: darken($sidebar-color, 3%);
+
+input {
+	color: $body-text-color
+}

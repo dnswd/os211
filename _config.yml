@@ -53,7 +53,7 @@ plugins:
 # =============================================
 # Theme configuration
 logo: favicon.ico
-color_scheme: dark
+color_scheme: dormammu
 
 # Enable or disable the site search
 # Supports true (default) or false
