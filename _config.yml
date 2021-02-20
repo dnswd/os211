@@ -52,7 +52,7 @@ plugins:
 #   - vendor/ruby/
 # =============================================
 # Theme configuration
-logo: assets/favicon.ico
+logo: favicon.ico
 color_scheme: dark
 
 # Enable or disable the site search
