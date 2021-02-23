@@ -27,7 +27,7 @@ url: "https://dnswd.github.io" # the base hostname & protocol for your site, e.g
 twitter_username: straussmn
 github_username:  dnswd
 # Build settings
-remote_theme:  pmarsceill/just-the-docs
+# remote_theme:  pmarsceill/just-the-docs
 plugins:
   - jekyll-feed
 
