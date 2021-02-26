@@ -47,3 +47,5 @@ ZCZC W01 5 L08 Trying to use Hyer-V instead of Virtual box and enabling hardware
 ZCZC W01 0 L00 Note: Mainly to avoid another tool isntallation as Hyper-V is preinstalled on Windows 10 Education.
 ZCZC W01 120 L21 Installing Debian 10.8.0 Buster on Hyper-V (download, install) but failed miserably
 ZCZC W01 30 L11 Done installing Debian Guest on Hyper-V 
+ZCZC 200 30 L08 Trying to make custom template without 'bloats'
+ZCZC W01 90 L04 Migrate from Jekyll template into CBKadal template
