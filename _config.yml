@@ -1,22 +1,21 @@
 title:       "Operating Systems 2021-1 (OS211)"
-version:     "0026e---23-Feb-2021"
+version:     "v1.5"
 copyright:   "2021-2021"
-description: >- 
-  This Is How Me Do It!
-  This Is How Me Do It!
-# baseurl: "" # e.g. /blog
-# url: ""     # e.g. http://example.com
-google_analytics: "UA-89852122-6"
-author:           "Cicak Bin Kadal"
-address:          "Pamulang"
+description: >- # Multiline
+  This site is a journal to record the progress of my OS class at Fasilkom UI.
+baseurl: "/os211" # e.g. /blog
+url: "https://dnswd.github.io"     # e.g. http://example.com
+# google_analytics: "UA-89852122-6"
+author:           "dnswd"
+address:          "Jakarta"
 sitemap:          "true"
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
-urlweb:           "https://cbkadal.github.io/os211/"
+urlweb:           "https://dnswd.github.io/os211/"
 urlcontact:       "TBS"
-urlgithub:        "https://github.com/cbkadal/os211/"
-urlghpage:        "https://cbkadal.github.io/os211/"
+urlgithub:        "https://github.com/dnswd/os211/"
+urlghpage:        "https://dnswd.github.io/os211/"
 keywords:         "jekyll, testing"
 github:           [metadata]
 

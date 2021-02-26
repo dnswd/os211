@@ -1,9 +1,0 @@
-Tue 01 Dec 2020 00:20:28 WIB
-============================
-
-dd if=/dev/zero of=ZZZZ bs=1M; df .; rm -i ZZZZ; df .;
-vboxmanage modifymedium --compact disk.vdi
-
-============================
-Wed Sep 23 12:57:36 WIB 2020
-
