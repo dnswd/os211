@@ -33,9 +33,6 @@
 #   L22 YouTube: study, etc.
 #   L99 Other (...)
 #
-# TODO:
-#   - ~~Delete Jekyll theme~~
-#
 ZCZC W00  10 L03 GitHub Setup
 ZCZC W00  20 L05 Discover Github Pages and Jekyll
 ZCZC W00  10 L04 Github Pages Setup
@@ -52,3 +49,5 @@ ZCZC W01   5 L08 Trying to use Hyer-V instead of Virtual box and enabling hardwa
 ZCZC W01   0 L00 Note: Mainly to avoid another tool isntallation as Hyper-V is preinstalled on Windows 10 Education.
 ZCZC W01 120 L21 Installing Debian 10.8.0 Buster on Hyper-V (download, install) but failed miserably
 ZCZC W01  30 L11 Done installing Debian Guest on Hyper-V 
+ZCZC W01 100 L02 March 1st Zoom class
+ZCZC W01  30 L10 Pop Quiz
