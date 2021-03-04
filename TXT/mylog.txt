@@ -33,6 +33,9 @@
 #   L22 YouTube: study, etc.
 #   L99 Other (...)
 #
+#  TODO:
+#    - Assignments: 5, 6, 7, 8, 9
+#
 ZCZC W00  10 L03 GitHub Setup
 ZCZC W00  20 L05 Discover Github Pages and Jekyll
 ZCZC W00  10 L11 Github Pages Setup
@@ -55,3 +58,6 @@ ZCZC W01   5 L06 Skim Minix3 Notes
 ZCZC W01  60 L21 Resolve Hyper-V problem with Enhanced mode
 ZCZC W01  40 L21 Migrating to Virtualbox
 ZCZC W01   3 L08 Bash aliases
+ZCZC W01  90 L12 Learn shell comamnds, shorthand, and scripting
+ZCZC W01  40 L13 Learned vi via vimtutor, learned awk, grep, and sed
+ZCZC W01   0 L14 Already done during Assignment #1
