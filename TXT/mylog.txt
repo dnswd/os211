@@ -36,6 +36,8 @@
 #  TODO:
 #    - Assignments: 7, 8, 9
 #
+
+# Week 00
 ZCZC W00  10 L03 GitHub Setup
 ZCZC W00  20 L05 Discover Github Pages and Jekyll
 ZCZC W00  10 L11 Github Pages Setup
@@ -47,9 +49,10 @@ ZCZC W00  90 L04 Migrate from Jekyll template into CBKadal template
 ZCZC W00  10 L10 Kawung setup
 ZCZC W00 100 L02 Feb 22th Zoom class
 ZCZC W00  70 L10 Pop Quiz standby (Email template, Telegram RSS bot setup)
+
+# Week 01
 ZCZC W01  30 L05 GSGS: Trying to resolve WSL2 and VirtualBox conflict
 ZCZC W01   5 L08 Trying to use Hyer-V instead of Virtual box and enabling hardware virtualization
-ZCZC W01   0 L00 Note: Mainly to avoid another tool isntallation as Hyper-V is preinstalled on Windows 10 Education.
 ZCZC W01 120 L21 Installing Debian 10.8.0 Buster on Hyper-V (download, install) but failed miserably
 ZCZC W01  30 L11 Done installing Debian Guest on Hyper-V 
 ZCZC W01 100 L02 March 1st Zoom class
@@ -64,4 +67,5 @@ ZCZC W01   0 L14 Already done during Assignment #1
 ZCZC W01  10 L08 Installing packages
 ZCZC W01  87 L15 Git & Github Repos
 ZCZC W01  20 L06 Add new entry for WD01 Assignemnt #7
-
+ZCZC W01   1 L03 Rename WD01 to W01
+ZCZC W01  56 L09 Asdos: asking, helping, discussing
