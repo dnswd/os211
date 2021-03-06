@@ -63,3 +63,5 @@ ZCZC W01  40 L13 Learned vi via vimtutor, learned awk, grep, and sed
 ZCZC W01   0 L14 Already done during Assignment #1
 ZCZC W01  10 L08 Installing packages
 ZCZC W01  87 L15 Git & Github Repos
+ZCZC W01  20 L06 Add new entry for WD01 Assignemnt #7
+
