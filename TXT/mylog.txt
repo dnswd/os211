@@ -68,4 +68,8 @@ ZCZC W01  10 L08 Installing packages
 ZCZC W01  87 L15 Git & Github Repos
 ZCZC W01  20 L06 Add new entry for WD01 Assignemnt #7
 ZCZC W01   1 L03 Rename WD01 to W01
-ZCZC W01  56 L09 Asdos: asking, helping, discussing
+ZCZC W01  88 L09 Asdos: asking, helping, discussing
+ZCZC W01  32 L06 Read about SSH key and PGP keys 
+ZCZC W01  10 L08 Setup PGP keys to differentiate host and guest commits
+
+
