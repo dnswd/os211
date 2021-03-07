@@ -75,4 +75,5 @@ ZCZC W01   5 L21 IBM Cloud: Virtualization Explained (https://www.youtube.com/wa
 ZCZC W01   8 L21 IBM Cloud: Containers vs VMs: What's the difference? (https://www.youtube.com/watch?v=cjXI-yxqGTI)
 ZCZC W01 151 L19 OSC Chapter 1
 ZCZC W01 180 L17 Finalizing Week01 Top 10 List
+ZCZC W01  30 L18 learned how to use grep, awk, sed. Plus pipelining (almost forgot to add these)
 
