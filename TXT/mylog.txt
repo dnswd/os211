@@ -71,5 +71,7 @@ ZCZC W01   1 L03 Rename WD01 to W01
 ZCZC W01  88 L09 Asdos: asking, helping, discussing
 ZCZC W01  32 L06 Read about SSH key and PGP keys 
 ZCZC W01  10 L08 Setup PGP keys to differentiate host and guest commits
+ZCZC W01   5 L21 IBM Cloud: Virtualization Explained (https://www.youtube.com/watch?v=FZR0rG3HKIk)
+ZCZC W01   8 L21 IBM Cloud: Containers vs VMs: What's the difference? (https://www.youtube.com/watch?v=cjXI-yxqGTI)
 ZCZC W01 151 L19 OSC Chapter 1
 
