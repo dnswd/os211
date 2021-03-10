@@ -86,5 +86,5 @@ ZCZC W02  10 L13 Generate PGP key using GnuPG
 ZCZC W02   5 L14 Import operatingsystems@vlsm.org public key
 ZCZC W02   3 L15 Export public key to OS211 github page
 ZCZC W02  15 L06 Make myrank.txt of Week01
-
+ZCZC W02  30 L05 GSGS: about key management and keyrings
 
