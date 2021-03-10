@@ -2,18 +2,6 @@
 
 # My useful bash script
 
-# Check for untracked/uncommited files first
-# echo "Starting program at $(date)"
-# echo "Checking for untracked files..."
-# UNTRACKED=$( git ls-files --exclude-standard --others | wc -l )
-# if [[ UNTRACKED -ne 0 ]]; then
-# 	echo "Found $UNTRACKED untracked or uncommited files"
-# 	>&2 echo "Please clean your tree and try again"
-# 	exit 1
-# fi
-
-# echo "Your tree is clean, generating new SHA256SUM file"
-
 # Code below is copied from https://github.com/cbkadal/os211/blob/master/TXT/myscript.sh
 # Credit to Mr. Rahmat M. Samik-Ibrahim
 # =============== BEGIN COPIED CODE ===================
@@ -38,8 +26,23 @@ gpg -o $SHA.asc -a -sb $SHA
 echo "gpg --verify $SHA.asc $SHA"
 gpg --verify $SHA.asc $SHA
 
-exit 0
+# exit 0
 
 # Mon Sep 28 21:05:04 WIB 2020
 # Tue 29 Sep 2020 11:02:39 AM WIB
 # =============== END COPIED CODE ===================
+
+# Check for untracked/uncommited files first
+# echo "Starting program at $(date)"
+echo "Checking for untracked files..."
+UNTRACKED=$( git ls-files --exclude-standard --others | wc -l)
+if [[ $UNTRACKED -ne 0 ]]; then
+	echo "Found $UNTRACKED untracked or uncommited files"
+        >&2 echo "Don't forget to add them!"
+        >&4 $(git ls-files --exclude-standard --others)
+else
+	echo -e "\nYour tree is clean, please commit your changes"
+fi
+
+echo "Found $(git ls-files --exclude-standard -m | wc -l) files pending for commit."
+
