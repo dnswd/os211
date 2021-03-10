@@ -89,4 +89,6 @@ ZCZC W02  71 L06 Resolve unverivied alias on GitHub
 ZCZC W02   5 L13 Generate anothe PGP key using GitHub email
 ZCZC W02   1 L20 Generate SHA256SUM with myscript.sh
 ZCZC W02   2 L19 Update this log
+ZCZC W02 170 L11 Read OS chapter 16 and 17
+ZCZC W02  40 L05 GSGS; Searching for Top 10 links (3/10)
 
