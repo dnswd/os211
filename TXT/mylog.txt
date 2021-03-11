@@ -74,7 +74,6 @@ ZCZC W01 180 L17 Finalizing Week01 Top 10 List
 ZCZC W01  30 L18 learned how to use grep, awk, sed. Plus pipelining (almost forgot to add these)
 
 # Week 02
-# TODO: 1, 7
 ZCZC W02  32 L10 Pop Quiz (8th March 2020)
 ZCZC W02 100 L02 Zoom Class (8th March 2020)
 ZCZC W01  40 L10 Pop Quiz (9th March 2020)
@@ -93,4 +92,6 @@ ZCZC W02 170 L11 Read OS chapter 16 and 17
 ZCZC W02  40 L05 GSGS: Searching for Top 10 links (3/10)
 ZCZC W02  30 L10 Pop Quiz (11th march 2020)
 ZCZC W02  60 L05 GSGS: Searching for Top 10 links (5/10)
+ZCZC W02  22 L11 Read the rest of OSC Chapter 17
+ZCZC W01 151 L17 Finished the Week02 Top 10 list
 
