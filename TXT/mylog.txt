@@ -93,5 +93,5 @@ ZCZC W02  40 L05 GSGS: Searching for Top 10 links (3/10)
 ZCZC W02  30 L10 Pop Quiz (11th march 2020)
 ZCZC W02  60 L05 GSGS: Searching for Top 10 links (5/10)
 ZCZC W02  22 L11 Read the rest of OSC Chapter 17
-ZCZC W01 151 L17 Finished the Week02 Top 10 list
+ZCZC W02 151 L17 Finished the Week02 Top 10 list
 
