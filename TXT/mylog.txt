@@ -32,8 +32,7 @@
 #   L21 VirtualBox: install GNU/Linux, etc.
 #   L22 YouTube: study, etc.
 #   L99 Other (...)
-
-# Week 00
+#
 ZCZC W00  10 L03 GitHub Setup
 ZCZC W00  20 L05 Discover Github Pages and Jekyll
 ZCZC W00  10 L11 Github Pages Setup
@@ -45,8 +44,6 @@ ZCZC W00  90 L04 Migrate from Jekyll template into CBKadal template
 ZCZC W00  10 L10 Kawung setup
 ZCZC W00 100 L02 Feb 22th Zoom class
 ZCZC W00  70 L10 Pop Quiz standby (Email template, Telegram RSS bot setup)
-
-# Week 01
 ZCZC W01  30 L05 GSGS: Trying to resolve WSL2 and VirtualBox conflict
 ZCZC W01   5 L08 Trying to use Hyer-V instead of Virtual box and enabling hardware virtualization
 ZCZC W01 120 L21 Installing Debian 10.8.0 Buster on Hyper-V (download, install) but failed miserably
@@ -72,8 +69,6 @@ ZCZC W01   8 L21 IBM Cloud: Containers vs VMs: What's the difference? (https://w
 ZCZC W01 151 L19 OSC Chapter 1
 ZCZC W01 180 L17 Finalizing Week01 Top 10 List
 ZCZC W01  30 L18 learned how to use grep, awk, sed. Plus pipelining (almost forgot to add these)
-
-# Week 02
 ZCZC W02  32 L10 Pop Quiz (8th March 2020)
 ZCZC W02 100 L02 Zoom Class (8th March 2020)
 ZCZC W01  40 L10 Pop Quiz (9th March 2020)
