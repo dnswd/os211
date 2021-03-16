@@ -92,4 +92,5 @@ ZCZC W02 151 L17 Finished the Week02 Top 10 list
 ZCZC W03  75 L11 Read OSC-10 chapter 13 + 14
 ZCZC W03  20 L12 Try Week02 Demos
 ZCZC W03  10 L13 Made sure .bash_aliases is updated
+ZCZC W03  20 L14 Modify myrank.txt for Week02
 
