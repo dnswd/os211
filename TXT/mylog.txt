@@ -93,4 +93,9 @@ ZCZC W03  75 L11 Read OSC-10 chapter 13 + 14
 ZCZC W03  20 L12 Try Week02 Demos
 ZCZC W03  10 L13 Made sure .bash_aliases is updated
 ZCZC W03  20 L14 Modify myrank.txt for Week02
+ZCZC W03  10 L18 Updated myscript.sh
+ZCZC W03   7 L17 Downloaded W03.tar.bz2.asc
+ZCZC W03   5 L16 Updated this log
+ZCZC W03   1 L19 Generate SHA256SUM and SHA256SUM.asc
+# TODO: 1, 5
 

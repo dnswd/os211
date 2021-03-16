@@ -1,48 +1,90 @@
 #!/bin/bash
 
+# Copyright (C) 2021 dnswd
 # My useful bash script
+
+printf "\nStarting myscript.sh\n\n"
 
 # Code below is copied from https://github.com/cbkadal/os211/blob/master/TXT/myscript.sh
 # Credit to Mr. Rahmat M. Samik-Ibrahim
-# =============== BEGIN COPIED CODE ===================
-# Cicak bin Kadal
-# Tue 13 Oct 2020 10:37:14 AM WIB
 
-FILES="my*.txt my*.sh"
+# =============== BEGIN COPIED CODE ===================
+# Copyright (C) 2020-2021 Cicak Bin Kadal
+# https://www.youtube.com/watch?v=KAXK07ni9gU
+
+# This free document is distributed in the hope that it will be 
+# useful, but WITHOUT ANY WARRANTY; without even the implied 
+# warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+# REV04 Mon 15 Mar 19:27:52 WIB 2021
+# REV03 Sun 14 Mar 18:21:27 WIB 2021
+# REV02 Fri 12 Mar 13:40:58 WIB 2021
+# REV01 Tue 13 Oct 10:37:14 WIB 2020
+# START Mon 28 Sep 21:05:04 WIB 2020
+
+# ATTN:
+# You new to set "REC2" with your own Public-Key Identity!
+# Check it out with "gpg --list-key"
+
+# Modified by: Dennis (dnswd)
+
+REC2="dennisaw2000@gmail.com" # "cbk@dummy"
+REC1="operatingsystems@vlsm.org"
+FILES="my*.asc my*.txt my*.sh"
 SHA="SHA256SUM"
 
-echo "rm -f $SHA $SHA.asc"
+[ -d $HOME/RESULT ] || mkdir -p $HOME/RESULT
+pushd $HOME/RESULT
+for II in W?? ; do
+    [ -d $II ] || continue
+    TARFILE=my$II.tar.bz2
+    TARFASC=$TARFILE.asc
+    rm -f $TARFILE $TARFASC
+    echo "tar cfj $TARFILE $II/"
+    tar cfj $TARFILE $II/
+    echo "gpg --armor --output $TARFASC --encrypt --recipient $REC1 --recipient $REC2 $TARFILE"
+    gpg --armor --output $TARFASC --encrypt --recipient $REC1 --recipient $REC2 $TARFILE
+done
+popd
+
+rm -f $HOME/RESULT/fakeDODOL
+for II in $HOME/RESULT/myW*.tar.bz2.asc $HOME/RESULT/fakeDODOL ; do
+   echo "Check and move $II..."
+   [ -f $II ] && mv -f $II .
+done
+
+echo -e "\nrm -f $SHA $SHA.asc"
 rm -f $SHA $SHA.asc
 
-echo "sha256sum $FILES > $SHA"
+echo -e "\nsha256sum $FILES > $SHA"
 sha256sum $FILES > $SHA
 
-echo "sha256sum -c $SHA"
+echo -e "\nsha256sum -c $SHA"
 sha256sum -c $SHA
 
-echo "gpg -o $SHA.asc -a -sb $SHA"
+echo -e "\ngpg -o $SHA.asc -a -sb $SHA"
 gpg -o $SHA.asc -a -sb $SHA
 
-echo "gpg --verify $SHA.asc $SHA"
+echo -e "\ngpg --verify $SHA.asc $SHA"
 gpg --verify $SHA.asc $SHA
 
 # exit 0
 
-# Mon Sep 28 21:05:04 WIB 2020
-# Tue 29 Sep 2020 11:02:39 AM WIB
+
 # =============== END COPIED CODE ===================
 
 # Check for untracked/uncommited files first
 # echo "Starting program at $(date)"
-echo "Checking for untracked files..."
+
+printf "\nChecking for untracked files...\n"
 UNTRACKED=$( git ls-files --exclude-standard --others | wc -l)
 if [[ $UNTRACKED -ne 0 ]]; then
 	echo "Found $UNTRACKED untracked or uncommited files"
-        >&2 echo "Don't forget to add them!"
-        >&4 $(git ls-files --exclude-standard --others)
-else
-	echo -e "\nYour tree is clean, please commit your changes"
+	>&2 echo "Don't forget to add them!"
+	>&2 $(git ls-files --exclude-standard --others)
+    else
+	printf "Your tree is clean, please commit your changes\n"
 fi
 
-echo "Found $(git ls-files --exclude-standard -m | wc -l) files pending for commit."
+printf "\nFound $(git ls-files --exclude-standard -m | wc -l) files pending for commit.\n"
 
