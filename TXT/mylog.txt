@@ -97,5 +97,6 @@ ZCZC W03  10 L18 Updated myscript.sh
 ZCZC W03   7 L17 Downloaded W03.tar.bz2.asc
 ZCZC W03   5 L16 Updated this log
 ZCZC W03   1 L19 Generate SHA256SUM and SHA256SUM.asc
+ZCZC W03  32 L17 Ran FUSE demo
 # TODO: 1, 5
 
