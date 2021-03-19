@@ -99,4 +99,9 @@ ZCZC W03   5 L16 Updated this log
 ZCZC W03   1 L19 Generate SHA256SUM and SHA256SUM.asc
 ZCZC W03  32 L17 Ran FUSE demo
 ZCZC W03 130 L15 Finished the Week03 Top 10 list
+ZCZC W03  15 L08 Fix bug in myscript.sh
+ZCZC W03  22 L05 Properly archive and encrypt W03
+ZCZC W03 100 L02 Zoom Meeting (17th March)
+ZCZC W03  30 L10 Pop Quiz (16th March)
+ZCZC W03   5 L10 Updating this log
 

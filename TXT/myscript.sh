@@ -81,7 +81,7 @@ UNTRACKED=$( git ls-files --exclude-standard --others | wc -l)
 if [[ $UNTRACKED -ne 0 ]]; then
 	echo "Found $UNTRACKED untracked or uncommited files"
 	>&2 echo "Don't forget to add them!"
-	>&2 $(git ls-files --exclude-standard --others)
+	>&2 echo $(git ls-files --exclude-standard --others)
     else
 	printf "Your tree is clean, please commit your changes\n"
 fi
