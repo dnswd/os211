@@ -106,4 +106,6 @@ ZCZC W03  30 L10 Pop Quiz (16th March)
 ZCZC W03   5 L10 Updating this log
 ZCZC W03   5 L00 Updated Bash Alias
 ZCZC W03  10 L10 Fix typo on the Week03 Top 10 list
+ZCZC W04  55 L12 Try Demo Week04
+ZCZC W04  10 L16 Do Assignment #6
 
