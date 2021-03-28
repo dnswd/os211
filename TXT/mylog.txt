@@ -108,4 +108,9 @@ ZCZC W03   5 L00 Updated Bash Alias
 ZCZC W03  10 L10 Fix typo on the Week03 Top 10 list
 ZCZC W04  55 L12 Try Demo Week04
 ZCZC W04  10 L16 Do Assignment #6
-
+ZCZC W04 151 L05 GSGS: Searching for Top 10 links (6/10)
+ZCZC W04  15 L11 Read Chapter 9 OSC briefly
+ZCZC W04   5 L15 Updating this log
+ZCZC W04   5 L17 Made sure myscript.sh is updated
+ZCZC W04   1 L18 Already automated
+ 
