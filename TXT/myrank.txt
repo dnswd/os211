@@ -5,4 +5,7 @@ ZCZC W01 Exqrch
 ZCZC W02 faishol01
 ZCZC W02 Exqrch
 ZCZC W02 Etyaresa
+ZCZC W03 ekojsalim
+ZCZC W03 Exqrch
+ZCZC W03 faishol01
 
