@@ -128,4 +128,4 @@ ZCZC W05  40 L00 Fix public key
 ZCZC W05  60 L13 Top 10 Week 5 (6/10)
 ZCZC W05   5 L15 Updting this log
 ZCZC W05   1 L16 Automated already
-
+ZCZC W05  15 L12 Added Week05 myrank.txt
