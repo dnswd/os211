@@ -132,4 +132,9 @@ ZCZC W05  15 L12 Added Week05 myrank.txt
 ZCZC W05  60 L13 Top 10 Week5 Finished
 ZCZC W06  30 L10 POP QUIZ (April 21st) via SCeLE
 ZCZC W06  80 L14 Done assignment #4
+ZCZC W06  40 L11 Skimming trough OSC10 chapter 3 and 4
+ZCZC W06  22 L12 Added Week05 myrank.txt
+ZCZC W06 155 L13 Finished Week 6 Top 10 list
+ZCZC W06   5 L15 Updating this log
+ZCZC W06   1 L16 Already automated
 
