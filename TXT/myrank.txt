@@ -14,4 +14,6 @@ ZCZC W04 faustaadp
 ZCZC W05 Etyaresa 
 ZCZC W05 faishol01
 ZCZC W05 ekojsalim
-
+ZCZC W06 Etyaresa
+ZCZC W06 Exqrch
+ZCZC W06 faishol01

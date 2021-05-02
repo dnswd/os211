@@ -40,10 +40,15 @@ for II in W?? ; do
     TARFILE=my$II.tar.bz2
     TARFASC=$TARFILE.asc
     rm -f $TARFILE $TARFASC
+    echo ""
+    echo "=== CONTENTS OF /RESULT/$II/ ==="
+    ls -altr ./$II
+    echo "=== END CONTENTS ==="
     echo "tar cfj $TARFILE $II/"
     tar cfj $TARFILE $II/
     echo "gpg --armor --output $TARFASC --encrypt --recipient $REC1 --recipient $REC2 $TARFILE"
     gpg --armor --output $TARFASC --encrypt --recipient $REC1 --recipient $REC2 $TARFILE
+    echo ""
 done
 popd
 

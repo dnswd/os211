@@ -1,4 +1,4 @@
-# Log Format:
+# Log Format:
 #   ZCZC WEEK# MINUTES LogCode Description
 #   LogCode + Description List
 #
@@ -137,4 +137,12 @@ ZCZC W06  22 L12 Added Week05 myrank.txt
 ZCZC W06 155 L13 Finished Week 6 Top 10 list
 ZCZC W06   5 L15 Updating this log
 ZCZC W06   1 L16 Already automated
-
+ZCZC W07  30 L10 POP QUIZ Tuesday
+ZCZC W07 100 L02 Zoom class
+ZCZC W07  32 L14 Created Week07 reports
+ZCZC W07 174 L13 Top 10 Week 7
+ZCZC W07   5 L15 Updated this log
+ZCZC W07   1 L16 Already automated
+ZCZC W07  10 L12 Updated myrank
+ZCZC W07  10 L00 Updated myscript.sh
+ZCZC W07  12 L01 Resond to SCeLE Forum
