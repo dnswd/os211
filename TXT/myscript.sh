@@ -16,6 +16,7 @@ printf "\nStarting myscript.sh\n\n"
 # useful, but WITHOUT ANY WARRANTY; without even the implied 
 # warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
+# REV05 Sat 27 Mar 00:12:28 WIB 2021
 # REV04 Mon 15 Mar 19:27:52 WIB 2021
 # REV03 Sun 14 Mar 18:21:27 WIB 2021
 # REV02 Fri 12 Mar 13:40:58 WIB 2021
@@ -53,7 +54,7 @@ done
 popd
 
 rm -f $HOME/RESULT/fakeDODOL
-for II in $HOME/RESULT/myW*.tar.bz2.asc $HOME/RESULT/fakeDODOL ; do
+for II in $HOME/RESULT/myW*.tar.bz2.asc ; do
    echo "Check and move $II..."
    [ -f $II ] && mv -f $II .
 done
@@ -86,10 +87,14 @@ UNTRACKED=$( git ls-files --exclude-standard --others | wc -l)
 if [[ $UNTRACKED -ne 0 ]]; then
 	echo "Found $UNTRACKED untracked or uncommited files"
 	>&2 echo "Don't forget to add them!"
+	>&2 echo "========================="
 	>&2 echo $(git ls-files --exclude-standard --others)
+	>&2 echo "========================="
     else
 	printf "Your tree is clean, please commit your changes\n"
 fi
 
 printf "\nFound $(git ls-files --exclude-standard -m | wc -l) files pending for commit.\n"
+
+exit 0
 
