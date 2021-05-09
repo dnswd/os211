@@ -1,4 +1,4 @@
-# Log Format:
+# Log Format:
 #   ZCZC WEEK# MINUTES LogCode Description
 #   LogCode + Description List
 #
@@ -147,4 +147,12 @@ ZCZC W07  10 L12 Updated myrank
 ZCZC W07  10 L00 Updated myscript.sh
 ZCZC W07  12 L01 Respond to SCeLE Forum
 ZCZC W07   3 L00 Fixed typo
+ZCZC W08 162 L13 Built LFS from chapter 1 to 4
+ZCZC W08 151 L12 Created top 10 list and updated myrank
+ZCZC W08   5 L15 Update this log
+ZCZC W08   1 L16 Already automated
+ZCZC W08  31 L22 Watch LFS video in 1.5x playback speed with lots of jumps
+ZCZC W08  30 L01 Scele QUIZ
+ZCZC W08 100 L02 Zoom class on May 3rd 2021
+ZCZC W08   5 L10 Copy result W08 to main machine
 

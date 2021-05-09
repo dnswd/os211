@@ -17,3 +17,7 @@ ZCZC W05 ekojsalim
 ZCZC W06 Etyaresa
 ZCZC W06 Exqrch
 ZCZC W06 faishol01
+ZCZC W07 ekojsalim
+ZCZC W07 Exqrch
+ZCZC W07 faishol01
+
