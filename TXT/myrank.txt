@@ -20,4 +20,7 @@ ZCZC W06 faishol01
 ZCZC W07 ekojsalim
 ZCZC W07 Exqrch
 ZCZC W07 faishol01
+ZCZC W08 Etyaresa
+ZCZC W08 faishol01
+ZCZC W08 fadhilrasendriya
 

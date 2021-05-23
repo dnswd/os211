@@ -155,4 +155,8 @@ ZCZC W08  31 L22 Watch LFS video in 1.5x playback speed with lots of jumps
 ZCZC W08  30 L01 Scele QUIZ
 ZCZC W08 100 L02 Zoom class on May 3rd 2021
 ZCZC W08   5 L10 Copy result W08 to main machine
+ZCZC W09 100 L02 Zoom class
+ZCZC W09  30 L10 Pop Quiz SceLe
+ZCZC W09  30 L10 Pop Quiz Discord
+ZCZC W09  40 L26 YouTube: Multithreading on C
 
